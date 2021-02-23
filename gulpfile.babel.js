@@ -168,11 +168,13 @@ export const dev = gulp.series(
   gulp.parallel(html, styles, scripts, images, copy),
   watch
 );
+
 // Build
 export const build = gulp.series(
   clean,
   gulp.parallel(html, styles, scripts, images, copy)
 );
+
 // Build and Compress
 export const bundle = gulp.series(build, compress);
 
