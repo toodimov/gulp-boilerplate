@@ -1,3 +1,23 @@
-body {
-  background-color: white;
-}
+// 1. Abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/functions";
+
+// 2. Vendors
+@import "./vendors/bootstrap";
+
+// 3. Base
+@import "./base/reset";
+@import "./base/base";
+@import "./base/typography";
+
+// 4. Components
+@import "./components/buttons";
+
+// 5. Layout
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/forms";
+
+// 6. Pages
+@import "./pages/home";

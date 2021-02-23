@@ -1,0 +1,17 @@
+// Helper to size an element
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+// Button Background color
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background: darken($bg, 8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: darken($bg, 25%);
+  }
+}
