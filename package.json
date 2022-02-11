@@ -39,7 +39,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-zip": "^5.0.2",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "vinyl-named": "^1.1.0",
     "webpack-stream": "^6.1.1",
     "yargs": "^16.2.0"
